@@ -1,0 +1,15 @@
+.main_container{
+display: grid;
+margin: 100px;
+justify-content: center;
+align-items: center;
+list-style: none;
+column-gap: 30px;
+}
+.garden > img{
+    width: 70%;
+    min-height: 40%;
+}
+li:not(:last-child) { 
+    margin-bottom: 15px;  
+ }
